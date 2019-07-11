@@ -1,0 +1,123 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by Pr35_timer_comp.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_PR35_TIMER_COMP_DIALOG      102
+#define IDR_MAINFRAME                   128
+#define IDC_BUTTON_LOAD                 1000
+#define IDC_BUTTON_SAVE                 1002
+#define IDC_COMBO_COMNUM                1003
+#define IDC_BUTTON_START                1004
+#define IDC_BUTTON_TEST_START           1005
+#define IDC_CHECK_1                     1006
+#define IDC_EDIT_1_MIN                  1007
+#define IDC_EDIT_1_SEC                  1008
+#define IDC_EDIT_1_MS                   1009
+#define IDC_EDIT_1_MKS                  1010
+#define IDC_EDIT_1_NS                   1011
+#define IDC_CHECK_2                     1012
+#define IDC_EDIT_2_MIN                  1013
+#define IDC_EDIT_2_SEC                  1014
+#define IDC_EDIT_2_MS                   1015
+#define IDC_EDIT_2_MKS                  1016
+#define IDC_EDIT_2_NS                   1017
+#define IDC_STATIC_STATE                1021
+#define IDC_BUTTON_TESTSTART            1022
+#define IDC_CHECK_3                     1037
+#define IDC_EDIT_3_MIN                  1038
+#define IDC_EDIT_3_SEC                  1039
+#define IDC_EDIT_3_MS                   1040
+#define IDC_EDIT_3_MKS                  1041
+#define IDC_EDIT_3_NS                   1042
+#define IDC_CHECK_4                     1043
+#define IDC_EDIT_4_MIN                  1044
+#define IDC_EDIT_4_SEC                  1045
+#define IDC_EDIT_4_MS                   1046
+#define IDC_EDIT_4_MKS                  1047
+#define IDC_EDIT_4_NS                   1048
+#define IDC_CHECK_5                     1049
+#define IDC_EDIT_5_MIN                  1050
+#define IDC_EDIT_5_SEC                  1051
+#define IDC_EDIT_5_MS                   1052
+#define IDC_EDIT_5_MKS                  1053
+#define IDC_EDIT_5_NS                   1054
+#define IDC_CHECK_6                     1055
+#define IDC_EDIT_6_MIN                  1056
+#define IDC_EDIT_6_SEC                  1057
+#define IDC_EDIT_6_MS                   1058
+#define IDC_EDIT_6_MKS                  1059
+#define IDC_EDIT_6_NS                   1060
+#define IDC_CHECK_7                     1061
+#define IDC_EDIT_7_MIN                  1062
+#define IDC_EDIT_7_SEC                  1063
+#define IDC_EDIT_7_MS                   1064
+#define IDC_EDIT_7_MKS                  1065
+#define IDC_EDIT_7_NS                   1066
+#define IDC_CHECK_8                     1067
+#define IDC_EDIT_8_MIN                  1068
+#define IDC_EDIT_8_SEC                  1069
+#define IDC_EDIT_8_MS                   1070
+#define IDC_EDIT_8_MKS                  1071
+#define IDC_EDIT_8_NS                   1072
+#define IDC_CHECK_9                     1073
+#define IDC_EDIT_9_MIN                  1074
+#define IDC_EDIT_9_SEC                  1075
+#define IDC_EDIT_9_MS                   1076
+#define IDC_EDIT_9_MKS                  1077
+#define IDC_EDIT_9_NS                   1078
+#define IDC_CHECK_10                    1079
+#define IDC_EDIT_10_MIN                 1080
+#define IDC_EDIT_10_SEC                 1081
+#define IDC_EDIT_10_MS                  1082
+#define IDC_EDIT_10_MKS                 1083
+#define IDC_EDIT_10_NS                  1084
+#define IDC_CHECK_11                    1085
+#define IDC_EDIT_11_MIN                 1086
+#define IDC_EDIT_11_SEC                 1087
+#define IDC_EDIT_11_MS                  1088
+#define IDC_EDIT_11_MKS                 1089
+#define IDC_EDIT_11_NS                  1090
+#define IDC_CHECK_12                    1091
+#define IDC_EDIT_12_MIN                 1092
+#define IDC_EDIT_12_SEC                 1093
+#define IDC_EDIT_12_MS                  1094
+#define IDC_EDIT_12_MKS                 1095
+#define IDC_EDIT_12_NS                  1096
+#define IDC_CHECK_13                    1097
+#define IDC_EDIT_13_MIN                 1098
+#define IDC_EDIT_13_SEC                 1099
+#define IDC_EDIT_13_MS                  1100
+#define IDC_EDIT_13_MKS                 1101
+#define IDC_EDIT_13_NS                  1102
+#define IDC_CHECK_14                    1103
+#define IDC_EDIT_14_MIN                 1104
+#define IDC_EDIT_14_SEC                 1105
+#define IDC_EDIT_14_MS                  1106
+#define IDC_EDIT_14_MKS                 1107
+#define IDC_EDIT_14_NS                  1108
+#define IDC_CHECK_15                    1109
+#define IDC_EDIT_15_MIN                 1110
+#define IDC_EDIT_15_SEC                 1111
+#define IDC_EDIT_15_MS                  1112
+#define IDC_EDIT_15_MKS                 1113
+#define IDC_EDIT_15_NS                  1114
+#define IDC_CHECK_16                    1115
+#define IDC_EDIT_16_MIN                 1116
+#define IDC_EDIT_16_SEC                 1117
+#define IDC_EDIT_16_MS                  1118
+#define IDC_EDIT_16_MKS                 1119
+#define IDC_EDIT_16_NS                  1120
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        136
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1023
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

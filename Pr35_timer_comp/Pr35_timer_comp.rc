@@ -1,0 +1,426 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Pr35_timer_comp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 44
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,9,21,20
+    LTEXT           "Пульт управления таймером   v 1.2",IDC_STATIC,47,9,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (c) 2015",IDC_STATIC,71,22,58,8
+    DEFPUSHBUTTON   "OK",IDOK,178,12,50,14,WS_GROUP
+END
+
+IDD_PR35_TIMER_COMP_DIALOG DIALOGEX 0, 0, 437, 351
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Пульт управления таймером"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Загрузить из таймера",IDC_BUTTON_LOAD,99,316,83,14
+    PUSHBUTTON      "Сохранить в таймер",IDC_BUTTON_SAVE,233,316,83,14
+    COMBOBOX        IDC_COMBO_COMNUM,10,15,48,123,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "COM-порт",IDC_STATIC,5,5,60,30
+    GROUPBOX        "Настройка таймера",IDC_STATIC,7,35,430,309
+    PUSHBUTTON      "Подготовка",IDC_BUTTON_START,236,16,71,14
+    GROUPBOX        "Управление таймером",IDC_STATIC,216,5,219,30
+    LTEXT           "Вкл/Выкл:",IDC_STATIC,17,50,37,8
+    LTEXT           "Время срабатывания:",IDC_STATIC,158,50,76,8
+    CONTROL         "Канал 01",IDC_CHECK_1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,70,47,10
+    EDITTEXT        IDC_EDIT_1_MIN,80,67,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,70,14,8
+    EDITTEXT        IDC_EDIT_1_SEC,125,67,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,70,13,8
+    EDITTEXT        IDC_EDIT_1_MS,170,67,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,70,10,8
+    EDITTEXT        IDC_EDIT_1_MKS,220,67,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,70,14,8
+    EDITTEXT        IDC_EDIT_1_NS,270,67,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,70,9,8
+    CONTROL         "Канал 02",IDC_CHECK_2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,85,47,10
+    EDITTEXT        IDC_EDIT_2_MIN,80,82,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,85,14,8
+    EDITTEXT        IDC_EDIT_2_SEC,125,82,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,85,13,8
+    EDITTEXT        IDC_EDIT_2_MS,170,82,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,85,10,8
+    EDITTEXT        IDC_EDIT_2_MKS,220,82,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,85,14,8
+    EDITTEXT        IDC_EDIT_2_NS,270,82,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,85,9,8
+    CONTROL         "Канал 03",IDC_CHECK_3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,99,47,10
+    EDITTEXT        IDC_EDIT_3_MIN,80,97,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,99,14,8
+    EDITTEXT        IDC_EDIT_3_SEC,125,97,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,99,13,8
+    EDITTEXT        IDC_EDIT_3_MS,170,97,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,99,10,8
+    EDITTEXT        IDC_EDIT_3_MKS,220,97,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,99,14,8
+    EDITTEXT        IDC_EDIT_3_NS,270,97,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,99,9,8
+    CONTROL         "Канал 04",IDC_CHECK_4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,113,47,10
+    EDITTEXT        IDC_EDIT_4_MIN,80,112,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,115,14,8
+    EDITTEXT        IDC_EDIT_4_SEC,125,112,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,115,13,8
+    EDITTEXT        IDC_EDIT_4_MS,170,112,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,115,10,8
+    EDITTEXT        IDC_EDIT_4_MKS,220,112,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,115,14,8
+    EDITTEXT        IDC_EDIT_4_NS,270,112,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,115,9,8
+    CONTROL         "Канал 05",IDC_CHECK_5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,128,47,10
+    EDITTEXT        IDC_EDIT_5_MIN,80,126,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,128,14,8
+    EDITTEXT        IDC_EDIT_5_SEC,125,126,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,128,13,8
+    EDITTEXT        IDC_EDIT_5_MS,170,126,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,128,10,8
+    EDITTEXT        IDC_EDIT_5_MKS,220,126,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,128,14,8
+    EDITTEXT        IDC_EDIT_5_NS,270,126,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,128,9,8
+    CONTROL         "Канал 06",IDC_CHECK_6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,142,47,10
+    EDITTEXT        IDC_EDIT_6_MIN,80,141,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,144,14,8
+    EDITTEXT        IDC_EDIT_6_SEC,125,141,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,144,13,8
+    EDITTEXT        IDC_EDIT_6_MS,170,141,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,144,10,8
+    EDITTEXT        IDC_EDIT_6_MKS,220,141,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,144,14,8
+    EDITTEXT        IDC_EDIT_6_NS,270,141,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,144,9,8
+    CONTROL         "Канал 07",IDC_CHECK_7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,158,47,10
+    EDITTEXT        IDC_EDIT_7_MIN,80,155,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,158,14,8
+    EDITTEXT        IDC_EDIT_7_SEC,125,155,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,158,13,8
+    EDITTEXT        IDC_EDIT_7_MS,170,155,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,158,10,8
+    EDITTEXT        IDC_EDIT_7_MKS,220,155,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,158,14,8
+    EDITTEXT        IDC_EDIT_7_NS,270,155,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,158,9,8
+    CONTROL         "Канал 08",IDC_CHECK_8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,172,47,10
+    EDITTEXT        IDC_EDIT_8_MIN,80,170,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,174,14,8
+    EDITTEXT        IDC_EDIT_8_SEC,125,170,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,174,13,8
+    EDITTEXT        IDC_EDIT_8_MS,170,170,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,174,10,8
+    EDITTEXT        IDC_EDIT_8_MKS,220,170,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,174,14,8
+    EDITTEXT        IDC_EDIT_8_NS,270,170,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,174,9,8
+    CONTROL         "Канал 09",IDC_CHECK_9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,187,47,10
+    EDITTEXT        IDC_EDIT_9_MIN,80,184,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,187,14,8
+    EDITTEXT        IDC_EDIT_9_SEC,125,184,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,187,13,8
+    EDITTEXT        IDC_EDIT_9_MS,170,184,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,187,10,8
+    EDITTEXT        IDC_EDIT_9_MKS,220,184,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,187,14,8
+    EDITTEXT        IDC_EDIT_9_NS,270,184,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,187,9,8
+    CONTROL         "Канал 10",IDC_CHECK_10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,202,47,10
+    EDITTEXT        IDC_EDIT_10_MIN,80,199,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,202,14,8
+    EDITTEXT        IDC_EDIT_10_SEC,125,199,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,202,13,8
+    EDITTEXT        IDC_EDIT_10_MS,170,199,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,202,10,8
+    EDITTEXT        IDC_EDIT_10_MKS,220,199,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,202,14,8
+    EDITTEXT        IDC_EDIT_10_NS,270,199,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,202,9,8
+    CONTROL         "Канал 11",IDC_CHECK_11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,216,47,10
+    EDITTEXT        IDC_EDIT_11_MIN,80,214,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,216,14,8
+    EDITTEXT        IDC_EDIT_11_SEC,125,214,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,216,13,8
+    EDITTEXT        IDC_EDIT_11_MS,170,214,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,216,10,8
+    EDITTEXT        IDC_EDIT_11_MKS,220,214,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,216,14,8
+    EDITTEXT        IDC_EDIT_11_NS,270,214,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,216,9,8
+    CONTROL         "Канал 12",IDC_CHECK_12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,230,47,10
+    EDITTEXT        IDC_EDIT_12_MIN,80,229,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,232,14,8
+    EDITTEXT        IDC_EDIT_12_SEC,125,229,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,232,13,8
+    EDITTEXT        IDC_EDIT_12_MS,170,229,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,232,10,8
+    EDITTEXT        IDC_EDIT_12_MKS,220,229,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,232,14,8
+    EDITTEXT        IDC_EDIT_12_NS,270,229,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,232,9,8
+    CONTROL         "Канал 13",IDC_CHECK_13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,245,47,10
+    EDITTEXT        IDC_EDIT_13_MIN,80,243,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,245,14,8
+    EDITTEXT        IDC_EDIT_13_SEC,125,243,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,245,13,8
+    EDITTEXT        IDC_EDIT_13_MS,170,243,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,245,10,8
+    EDITTEXT        IDC_EDIT_13_MKS,220,243,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,245,14,8
+    EDITTEXT        IDC_EDIT_13_NS,270,243,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,245,9,8
+    CONTROL         "Канал 14",IDC_CHECK_14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,261,47,10
+    EDITTEXT        IDC_EDIT_14_MIN,80,258,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,261,14,8
+    EDITTEXT        IDC_EDIT_14_SEC,125,258,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,261,13,8
+    EDITTEXT        IDC_EDIT_14_MS,170,258,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,261,10,8
+    EDITTEXT        IDC_EDIT_14_MKS,220,258,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,261,14,8
+    EDITTEXT        IDC_EDIT_14_NS,270,258,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,261,9,8
+    CONTROL         "Канал 15",IDC_CHECK_15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,275,47,10
+    EDITTEXT        IDC_EDIT_15_MIN,80,272,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,275,14,8
+    EDITTEXT        IDC_EDIT_15_SEC,125,272,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,275,13,8
+    EDITTEXT        IDC_EDIT_15_MS,170,272,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,275,10,8
+    EDITTEXT        IDC_EDIT_15_MKS,220,272,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,275,14,8
+    EDITTEXT        IDC_EDIT_15_NS,270,272,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,275,9,8
+    CONTROL         "Канал 16",IDC_CHECK_16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,289,47,10
+    EDITTEXT        IDC_EDIT_16_MIN,80,287,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мин",IDC_STATIC,99,289,14,8
+    EDITTEXT        IDC_EDIT_16_SEC,125,287,19,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "сек",IDC_STATIC,145,289,13,8
+    EDITTEXT        IDC_EDIT_16_MS,170,287,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мс",IDC_STATIC,198,289,10,8
+    EDITTEXT        IDC_EDIT_16_MKS,220,287,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "мкс",IDC_STATIC,247,289,14,8
+    EDITTEXT        IDC_EDIT_16_NS,270,287,28,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "нс",IDC_STATIC,298,289,9,8
+    GROUPBOX        "Текущее состояние",IDC_STATIC,70,5,142,30
+    LTEXT           "Настройки не загружены",IDC_STATIC_STATE,73,17,136,8
+    PUSHBUTTON      "Тестовый запуск",IDC_BUTTON_TESTSTART,345,16,71,14
+    LTEXT           "Статический текст 1",IDC_STATIC,324,70,101,8
+    LTEXT           "Статический текст 2",IDC_STATIC,324,85,101,8
+    LTEXT           "Статический текст 3",IDC_STATIC,324,99,101,8
+    LTEXT           "Статический текст 4",IDC_STATIC,324,115,101,8
+    LTEXT           "Статический текст 5",IDC_STATIC,324,128,101,8
+    LTEXT           "Статический текст 6",IDC_STATIC,324,144,101,8
+    LTEXT           "Статический текст 7",IDC_STATIC,324,158,101,8
+    LTEXT           "Статический текст 8",IDC_STATIC,324,174,101,8
+    LTEXT           "Статический текст 9",IDC_STATIC,324,187,101,8
+    LTEXT           "Статический текст 10",IDC_STATIC,324,202,101,8
+    LTEXT           "Статический текст 11",IDC_STATIC,324,216,101,8
+    LTEXT           "Статический текст 12",IDC_STATIC,324,232,101,8
+    LTEXT           "Статический текст 13",IDC_STATIC,324,245,101,8
+    LTEXT           "Статический текст 14",IDC_STATIC,324,261,101,8
+    LTEXT           "Статический текст 15",IDC_STATIC,324,275,101,8
+    LTEXT           "Статический текст 16",IDC_STATIC,324,289,101,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Pr35_timer_comp MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Pr35_timer_comp"
+            VALUE "LegalCopyright", "Copyright (C) 2008"
+            VALUE "OriginalFilename", "Pr35_timer_comp.EXE"
+            VALUE "ProductName", "Pr35_timer_comp Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 228
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 36
+    END
+
+    IDD_PR35_TIMER_COMP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 435
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 344
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\timer4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PR35_TIMER_COMP_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x354d, "\000" 
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x364d, "\000" 
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x374d, "\000" 
+    IDC_COMBO_COMNUM, 0x403, 5, 0
+0x4f43, 0x384d, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&О программе ..."
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Pr35_timer_comp.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
